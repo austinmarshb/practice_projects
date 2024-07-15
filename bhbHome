@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <title>Your Best Value Proposition</title>
+    <style>
+        body {
+            font-family: Calibri, serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header,
+        footer {
+            font-family: Arial, sans-serif padding: 20px;
+            text-align: center;
+        }
+
+        .headertitle {
+            font-size: 3rem;
+            font-weight: bold;
+            background-color: #5C2E5C;
+            color: white;
+        }
+
+        .container {
+            color: white;
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        .container2 {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            font-size: 2em;
+            margin: 0 10px;
+            text-decoration: none;
+            color: #3E5641;
+        }
+
+        .menu-icon img {
+            display: none;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 50px 0;
+            background-color: #3F5461;
+        }
+
+        .hero h1 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            margin-bottom: 20px;
+        }
+
+        .hero button {
+            padding: 10px 20px;
+            font-size: 1em;
+            background-color: #742C36;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .features {
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        .features h2 {
+            margin-bottom: 20px;
+        }
+
+        .feature-cards {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-bottom: 50px;
+        }
+
+        .feature-card {
+            width: 22%;
+            padding: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .feature-card img {
+            width: 100%;
+            height: auto;
+        }
+
+        .feature-card h3 {
+            margin: 10px 0;
+        }
+
+        .learn-more {
+            text-align: center;
+            margin: 50px 0;
+        }
+
+        #learn-more button {
+            padding: 10px 20px;
+            font-size: 1em;
+            background-color: #742C36;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .newsletter {
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            background-color: #3E5641;
+        }
+
+        .newsletter input[type="email"] {
+            padding: 10px;
+            font-size: 1em;
+            width: 300px;
+            max-width: 80%;
+            margin-bottom: 10px;
+        }
+
+        .newsletter button {
+            padding: 10px 20px;
+            font-size: 1em;
+            background-color: #742C36;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                width: 90%;
+            }
+
+            .feature-card {
+                width: 45%;
+                margin-bottom: 20px;
+            }
+
+            nav {
+                flex-direction: column;
+            }
+
+            .menu-icon img {
+                display: block;
+            }
+
+            /* .nav-links {
+                display: none;
+            }
+ */
+            nav a {
+                margin: 10px 0;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .feature-card {
+                width: 100%;
+            }
+
+            .hero h1 {
+                font-size: 1.5em;
+            }
+
+            .hero p {
+                font-size: 1em;
+            }
+
+            .hero button {
+                color: white;
+                font-size: 0.8em;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="headertitle">Book Haven Books</div>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <img src="logo.png" alt="Logo">
+                </div>
+                <div class="nav-links">
+                    <a href="index.html">Home</a>
+                    <a href="gallery.html">Gallery</a>
+                    <a href="aboutus.html">About Us</a>
+                    <a href="news.html">News</a>
+                </div>
+                <!-- menu icon here??? -->
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Welcome to Book Haven Books</h1>
+            <p>Your local, and online partner in literature! We specialize in vintage and early editions of some of the
+                worlds most popular fiction and non fiction books.</p>
+            <div class="slideshow">
+                <img src="pexels1.jpg" width=90% alt="Slideshow Image">
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container2">
+            <h2>Current Promos</h2>
+            <div class="feature-cards">
+                <div class="feature-card">
+                    <img src="Client3_Book1.png" alt="Special Feature">
+                    <h3>Buy 2 get 1 Free</h3>
+                </div>
+                <div class="feature-card">
+                    <img src="Client3_Book2.png" alt="Special Feature">
+                    <h3>Refer a friend and save</h3>
+                </div>
+                <div class="feature-card">
+                    <img src="Client3_Book3.png" alt="Special Feature">
+                    <h3>First purchase 5% off</h3>
+                </div>
+                <div class="feature-card">
+                    <img src="Client3_ToteBag.png" alt="Special Feature">
+                    <h3>6 Free Books a year with membership</h3>
+                </div>
+            </div>
+            <div id="learn-more">
+                <h2>The perks you get when shopping with us.</h2>
+                <p>Our online services are fast and easy with quick shipping options.<br>Our in store experts can
+                    provide you with unparalleled service to help you with any specifics needs or interests.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="newsletter">
+                <h3>Sign up for our Newsletter</h3>
+                <form onsubmit="alert('Thanks for subscribing!'); return false;"><input type="email"
+                        placeholder="Enter your email" required>
+                    <button type="submit" id="subscribeButton">Subscribe</button>
+                </form>
+            </div>
+            <div id="output"></div>
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="aboutus.html">About Us</a>
+                <a href="news.html">News</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
